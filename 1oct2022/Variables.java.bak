@@ -1,0 +1,34 @@
+class Variables 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Program Starts!");
+		//syntax to declare and iniitialize variable: variable name= value
+		//variable--> local variable
+		int age=25;
+		int num1=26;
+		int num2=27;
+		int result=num1-num2;//mod
+		byte b_variable=10;
+		short s_variable=40;
+		long l_variable=101;
+		float f_variable=10.12f;
+		double d_variable=23.656;
+		char c_variable='c';
+		boolean b_vaiable=false;
+		System.out.println("Number1 is: "+num1);
+		System.out.println("number 2 is: "+num2);
+		System.out.println("substraction of two number is: "+result);
+		System.out.println(age);
+		System.out.println(byte);
+		System.out.println(short);
+		System.out.println(long);
+		System.out.println(float);
+		System.out.println(double);
+		System.out.println(char);
+		System.out.println(boolean);
+        System.out.println("Program Ends");
+		
+	}
+
+}
